@@ -1,0 +1,4 @@
+D:\repos\grab\app\bin\Release\net9.0\win-x64\publish\appsettings.Development.json
+D:\repos\grab\app\bin\Release\net9.0\win-x64\publish\appsettings.json
+D:\repos\grab\app\bin\Release\net9.0\win-x64\publish\app.exe
+D:\repos\grab\app\bin\Release\net9.0\win-x64\publish\aspnetcorev2_inprocess.dll

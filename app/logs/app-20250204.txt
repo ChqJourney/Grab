@@ -1,0 +1,7 @@
+2025-02-04 23:28:59.200 +08:00 [INF] Test endpoint was called
+2025-02-04 23:29:21.426 +08:00 [DBG] This is a debug message
+2025-02-04 23:29:21.429 +08:00 [INF] This is an information message
+2025-02-04 23:29:21.433 +08:00 [WRN] This is a warning message
+2025-02-04 23:29:21.436 +08:00 [ERR] This is an error message
+System.Exception: Test exception
+   at Program.<>c.<<Main>$>b__0_3(ILoggerService logger) in D:\repos\grab\app\Program.cs:line 45
