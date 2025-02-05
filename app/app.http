@@ -4,3 +4,13 @@ GET {{app_HostAddress}}/weatherforecast/
 Accept: application/json
 
 ###
+GET  {{app_HostAddress}}/test/
+
+###
+GET {{app_HostAddress}}/testlog/
+
+###
+POST {{app_HostAddress}}/start
+Content-Type:application/json
+
+{"dir":"//Users//chenhuanqin//Downloads//"}

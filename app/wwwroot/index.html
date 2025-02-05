@@ -4,11 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mini API App</title>
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+    <style type="text/tailwindcss">
+      @theme {
+        --color-clifford: #da373d;
+      }
+    </style>
 </head>
-<body>
-    <div id="app">
-        <h1>Welcome to Mini API</h1>
-        <div id="result"></div>
+<body class="bg-gray-100 min-h-screen">
+    <div id="app" class="container mx-auto px-4 py-8 max-w-3xl">
+        <h1 class="text-4xl font-bold text-center mb-8 text-gray-800">Welcome to Mini API</h1>
+        <div id="result" class="bg-white rounded-lg shadow-md p-4 mb-4 min-h-[50px] text-gray-700"></div>
+        <div id="messages" class="bg-white rounded-lg shadow-md p-4 mb-6 min-h-[200px] max-h-[400px] overflow-y-auto text-gray-600 space-y-2"></div>
+        <button onclick="startProcess()" class="w-full bg-blue-500 hover:bg-blue-600 text-white font-semibold py-3 px-6 rounded-lg transition duration-200 ease-in-out transform hover:scale-[1.02] focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-opacity-50">Start Processing</button>
     </div>
     <script src="app.js"></script>
 </body>

@@ -1,9 +1,10 @@
-namespace App.Services;
-
-public interface ILoggerService
+namespace App.Services
 {
-    void LogInformation(string message);
-    void LogWarning(string message);
-    void LogError(string message, Exception? exception = null);
-    void LogDebug(string message);
+    public interface ILoggerService
+    {
+        Task LogInfoAsync(string message);
+        Task LogErrorAsync(string message, Exception ex = null);
+        Task LogWarningAsync(string message);
+        Task LogProcessStatusAsync(string path, string status, string details = null);
+    }
 }
